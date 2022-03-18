@@ -15,6 +15,7 @@
 # Randy Ichinose <randyichinose@gmail.com>, 2016
 # Riccardo Di Maio <riccardodimaio11@gmail.com>, 2015
 # Saverio <saverio.brancaccio@gmail.com>, 2015
+# Cristina Mantione <translate@paroleinlinea.com>, 2022
 msgid ""
 msgstr ""
 "Project-Id-Version: Audacity\n"
@@ -53,12 +54,12 @@ msgstr "Rapporto problemi per Audacity"
 msgid ""
 "Click \"Send\" to submit the report to Audacity. This information is "
 "collected anonymously."
-msgstr "Fare clic su \"Invia\" per inviare il rapporto ad Audacity. Queste informazioni sono collezionate in forma anonima."
+msgstr "Fai clic su \"Invia\" per inviare il rapporto ad Audacity. Queste informazioni sono raccolte in forma anonima."
 
 #: crashreports/crashreporter/CrashReportApp.cpp
 #: src/widgets/ErrorReportDialog.cpp
 msgid "Problem details"
-msgstr "Dettagli problema"
+msgstr "Dettagli del problema"
 
 #: crashreports/crashreporter/CrashReportApp.cpp src/Tags.cpp
 #: src/prefs/MousePrefs.cpp src/widgets/ErrorReportDialog.cpp
@@ -71,7 +72,7 @@ msgstr "Commenti"
 #: src/widgets/ErrorReportDialog.cpp
 #, c-format
 msgid "See %s for more info."
-msgstr "Vedere %s per ulteriori informazioni."
+msgstr "Vedi %s per ulteriori informazioni."
 
 #. i18n-hint: Title of hyperlink to the privacy policy. This is an
 #. object of "See".
@@ -83,7 +84,7 @@ msgstr "Vedere %s per ulteriori informazioni."
 #: src/prefs/ApplicationPrefs.cpp src/update/UpdateNoticeDialog.cpp
 #: src/widgets/ErrorReportDialog.cpp
 msgid "our Privacy Policy"
-msgstr "la nostra politica relativa alla privacy"
+msgstr "la nostra informativa sulla privacy"
 
 #: crashreports/crashreporter/CrashReportApp.cpp
 #: src/widgets/ErrorReportDialog.cpp
@@ -619,7 +620,7 @@ msgstr "Audacity non può caricare il file:\n  %s.\nProbabile formato png non va
 msgid ""
 "Audacity could not read its default theme.\n"
 "Please report the problem."
-msgstr "Audacity non può leggere il tema predefinito.\nInviare un report sul problema."
+msgstr "Audacity non può leggere il tema predefinito.\nInviare una segnalazione con il problema."
 
 #: libraries/lib-theme/Theme.cpp
 #, c-format
@@ -627,7 +628,7 @@ msgid ""
 "None of the expected theme component files\n"
 " were found in:\n"
 "  %s."
-msgstr "Nessuno dei file previsti componenti il tema\n è stato trovato in:\n  %s."
+msgstr "Nessuno dei file dei componenti del tema previsti\n è stato trovato in:\n  %s."
 
 #: libraries/lib-theme/Theme.cpp
 #, c-format
@@ -859,7 +860,7 @@ msgstr "Nessuna corrispondenza trovata"
 
 #: modules/mod-nyq-bench/NyqBench.cpp
 msgid "Code has been modified. Are you sure?"
-msgstr "Il codice è stato modificato. Si è sicuri?"
+msgstr "Il codice è stato modificato. Sei sicuro?"
 
 #: modules/mod-nyq-bench/NyqBench.cpp
 msgid "Untitled"
@@ -896,11 +897,11 @@ msgstr "Salva script"
 
 #: modules/mod-nyq-bench/NyqBench.cpp
 msgid "Save As"
-msgstr "Salva con nome"
+msgstr "Salva come"
 
 #: modules/mod-nyq-bench/NyqBench.cpp
 msgid "Save script as..."
-msgstr "Salva script con nome..."
+msgstr "Salva script come..."
 
 #: modules/mod-nyq-bench/NyqBench.cpp src/toolbars/EditToolBar.cpp
 #: src/tracks/playabletrack/wavetrack/ui/WaveTrackView.cpp
@@ -1186,7 +1187,7 @@ msgstr "disponibile"
 msgid ""
 "If you find a bug or have a suggestion for us, please write, in English, to "
 "our %s. For help, view the tips and tricks on our %s or visit our %s."
-msgstr "Se si trova un errore o si hanno dei suggerimenti, sarebbe opportuno scriverci (in inglese) sul nostro %s. Per assistenza, suggerimenti e consigli, visitare il nostro %s o il nostro %s."
+msgstr "Se trovi un errore oppure hai dei suggerimenti, scrivici (in inglese) sul nostro %s. Per assistenza, suggerimenti e consigli, visita il nostro %s o il nostro %s."
 
 #. i18n-hint substitutes into "write to our %s"
 #: src/AboutDialog.cpp
@@ -1212,7 +1213,7 @@ msgstr "forum"
 #. *  For example:  "English translation by Dominic Mazzoni."
 #: src/AboutDialog.cpp
 msgid "translator_credits"
-msgstr "Traduzione italiana di Carmelo Battaglia e Michele Locati"
+msgstr "Traduzione italiana di Carmelo Battaglia, Michele Locati e Cristina Mantione (traduzione e revisione)"
 
 #: src/AboutDialog.cpp
 msgid "<h3>"
@@ -1455,7 +1456,7 @@ msgstr "INFORMATIVA SULLA PRIVACY"
 msgid ""
 "App update checking and error reporting require network access. These "
 "features are optional."
-msgstr "La verifica di aggiornamenti e la segnalazione degli errori richiedono l'accesso alla rete. Queste funzionalità sono facoltative."
+msgstr "La verifica degli aggiornamenti e la segnalazione degli errori richiedono l'accesso alla rete. Queste funzionalità sono facoltative."
 
 #: src/AdornedRulerPanel.cpp
 msgid "Click and drag to define a looping region."
@@ -1630,7 +1631,7 @@ msgid ""
 "Audacity could not find a safe place to store temporary files.\n"
 "Audacity needs a place where automatic cleanup programs won't delete the temporary files.\n"
 "Please enter an appropriate directory in the preferences dialog."
-msgstr "Non è stato possibile trovare una posizione sicura dove salvare i file temporanei.\nAudacity ha bisogno di una posizione in cui i programmi automatici di pulizia non eliminano i file temporanei.\nSpecificare un'appropriata cartella nella finestra di dialogo delle preferenze."
+msgstr "Non è stato possibile trovare una posizione sicura dove salvare i file temporanei.\nAudacity ha bisogno di una posizione in cui i programmi automatici di pulizia non cancellino i file temporanei.\nSpecificare una cartella adatta nella finestra di dialogo delle preferenze."
 
 #: src/AudacityApp.cpp
 msgid ""
@@ -1659,11 +1660,11 @@ msgstr "Non è stato possibile bloccare la cartella dei file temporanei.\nQuesta
 
 #: src/AudacityApp.cpp
 msgid "Do you still want to start Audacity?"
-msgstr "Si desidera ancora avviare Audacity?"
+msgstr "Desideri ancora avviare Audacity?"
 
 #: src/AudacityApp.cpp
 msgid "Error Locking Temporary Folder"
-msgstr "Errore bloccando la cartella dei file temporanei"
+msgstr "Errore durante il blocco della cartella dei file temporanei"
 
 #: src/AudacityApp.cpp
 msgid "The system has detected that another copy of Audacity is running.\n"
@@ -1689,7 +1690,7 @@ msgstr "Impossibile acquisire i semafori.\n\nCiò è probabilmente dovuto a scar
 
 #: src/AudacityApp.cpp
 msgid "Audacity Startup Failure"
-msgstr "Avvio di Audacity fallito"
+msgstr "Avvio di Audacity non riuscito"
 
 #: src/AudacityApp.cpp
 msgid ""
